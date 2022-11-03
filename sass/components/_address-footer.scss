@@ -1,23 +1,10 @@
-.footer__address {
+.address {
     font-family: 'Roboto';
     font-style: normal;
     letter-spacing: 0.03em;
 }
-// footer-logo
-.footer__logo {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
 
-    display: flex;
-    margin-bottom: 20px;
-
-    text-decoration: none;
-    color: var(--White);
-}
-.address {
+.address__list {
     display: flex;
     flex-direction: column;
     gap: 9px;

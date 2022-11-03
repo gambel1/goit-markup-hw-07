@@ -57,25 +57,13 @@ p {
   margin: -1px;
 }
 
-.footer__address {
+.address {
   font-family: "Roboto";
   font-style: normal;
   letter-spacing: 0.03em;
 }
 
-.footer__logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  display: flex;
-  margin-bottom: 20px;
-  text-decoration: none;
-  color: var(--White);
-}
-
-.address {
+.address__list {
   display: flex;
   flex-direction: column;
   gap: 9px;
@@ -432,7 +420,10 @@ p {
   justify-content: space-between;
 }
 
-/* footer-join */
+.footer__logo {
+  color: var(--White);
+}
+
 .footer-join__title {
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -441,13 +432,13 @@ p {
 }
 
 /* footer-inner */
-.footer-inner {
+.footer-join__inner {
   display: flex;
   margin-top: 20px;
   gap: 10px;
 }
 
-.footer-inner__link {
+.footer-join__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -460,12 +451,11 @@ p {
   transition: background-color 250ms var(--timing-function);
 }
 
-.footer-inner__link:hover,
-.footer-inner__link:focus {
+.footer-join__link__link:hover,
+.footer-join__link__link:focus {
   background-color: var(--acent-color);
 }
 
-/* footer-subscription */
 .footer-subscription__text {
   font-weight: 700;
   line-height: 1.14;
@@ -475,12 +465,12 @@ p {
 }
 
 /* subscription-form */
-.subscription-form {
+.footer-subscription__form {
   display: flex;
   margin-top: 20px;
 }
 
-.subscription-form input {
+.footer-subscription__form input {
   display: block;
   width: 358px;
   height: 50px;
@@ -493,14 +483,14 @@ p {
   border-radius: 4px;
 }
 
-.subscription-form input::placeholder {
+.footer-subscription__form input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscription-form__button {
+.footer-subscription__button {
   position: relative;
   display: flex;
   align-items: center;
@@ -519,7 +509,7 @@ p {
   border: none;
 }
 
-.subscription-form__icon {
+.footer-subscription__icon {
   fill: var(--White);
 }
 
@@ -533,9 +523,8 @@ p {
   align-items: center;
 }
 
-.header__nav {
-  display: flex;
-  align-items: center;
+.header__logo {
+  color: #000000;
 }
 
 .hero {
@@ -586,6 +575,25 @@ p {
   background-color: var(--acent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--acent-color);
+}
+
+.logo—black-piece {
+  margin-right: 93px;
+}
+
+.logo—white-piece {
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .modal {
@@ -781,7 +789,11 @@ p {
 
 .nav {
   display: flex;
-  margin-left: 93px;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
   gap: 50px;
 }
 
