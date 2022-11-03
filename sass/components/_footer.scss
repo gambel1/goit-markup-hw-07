@@ -2,7 +2,6 @@
     padding: 60px 0%;
 
     background-color: var(--secondaly);
-}
 
 .footer__box {
     display: flex;
@@ -10,6 +9,9 @@
     justify-content: space-between;
 }
 .footer__logo {
-    color: var(--White);
+    display: flex;
+    margin-bottom: 20px;
 }
+}
+
 

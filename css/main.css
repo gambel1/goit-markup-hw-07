@@ -413,15 +413,14 @@ p {
   padding: 60px 0%;
   background-color: var(--secondaly);
 }
-
-.footer__box {
+.footer .footer__box {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
-
-.footer__logo {
-  color: var(--White);
+.footer .footer__logo {
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .footer-join__title {
@@ -517,14 +516,12 @@ p {
   padding: 24px 0%;
   border-bottom: 1px solid #ECECEC;
 }
-
-.header__box {
+.header .header__box {
   display: flex;
   align-items: center;
 }
-
-.header__logo {
-  color: #000000;
+.header .header__logo {
+  margin-right: 93px;
 }
 
 .hero {
@@ -586,14 +583,11 @@ p {
   text-decoration: none;
   color: var(--acent-color);
 }
-
-.logo—black {
-  margin-right: 93px;
+.logo .logo-black {
+  color: #000000;
 }
-
-.logo—white {
-  display: flex;
-  margin-bottom: 20px;
+.logo .logo-white {
+  color: var(--White);
 }
 
 .modal {
