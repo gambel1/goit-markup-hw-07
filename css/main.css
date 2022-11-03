@@ -587,11 +587,11 @@ p {
   color: var(--acent-color);
 }
 
-.logo—black-piece {
+.logo—black {
   margin-right: 93px;
 }
 
-.logo—white-piece {
+.logo—white {
   display: flex;
   margin-bottom: 20px;
 }
