@@ -73,10 +73,10 @@
     border-radius: 4px;
 
     transition: border-color 250ms $timing-function;
-}
 
-.form__textarea:focus {
+&:focus {
     border-color: $accent-color;
+    }
 }
 
 .form__wrapper::placeholder {

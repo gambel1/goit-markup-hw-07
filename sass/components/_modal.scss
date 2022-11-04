@@ -33,12 +33,12 @@
     outline: none;
     background-color: $White;
     transition: fill 250ms $timing-function;
-}
 
-.modal__button:hover,
-.modal__button:focus {
+&:hover,
+&:focus {
     fill: $accent-color;
-}
+    }
+}   
 
 .modal__icon {
     width: 11px;

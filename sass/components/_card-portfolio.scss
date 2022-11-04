@@ -8,15 +8,15 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
 
-&-link {
+.reclam-link {
     display: block;
     text-decoration: none;
 
     transition: box-shadow 250ms $timing-function;
-    }
 
-&-link:hover {
+&:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     }
 }
@@ -24,10 +24,6 @@
 .reclam-backdrop {
     position: relative;
     overflow: hidden;
-
-&-backdrop:hover::after {
-    transform: translateY(0);
-    }
 }
 
 .reclam-box {
@@ -43,6 +39,10 @@
     transition: transform 250ms $timing-function;
 }
 
+.reclam-backdrop:hover::after {
+    transform: translateY(0);
+}
+
 .reclam-link:hover .reclam-box {
     transform: translateY(0);
 }
@@ -55,7 +55,7 @@
 
     letter-spacing: 0.03em;
     color: $White;
-    
+
 &:hover {
     transform: translateY(0);
     }

@@ -49,11 +49,11 @@
 
     transition: background-color 250ms $timing-function,
         box-shadow 250ms $timing-function;
-}
 
-.hero-button:hover,
-.hero-button:focus {
+&:hover,
+&:focus {
     background-color: $accent-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
+    }
 }

@@ -2,18 +2,18 @@
     font-family: 'Roboto';
     font-style: normal;
     letter-spacing: 0.03em;
+}
 
-&__list {
+.address__list {
     display: flex;
     flex-direction: column;
     gap: 9px;
 }
 
-&__text {
+.address__text {
     color: $White;
     line-height: 1.7;
     text-decoration: none;
-}
 }
 
 .address__link {
@@ -25,5 +25,5 @@
 &:hover,
 &:focus {
     color: $accent-color;
-}
+    }
 }
