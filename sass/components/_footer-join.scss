@@ -3,7 +3,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: $White;
 }
 
 /* footer-inner */
@@ -24,12 +24,12 @@
     border-radius: 50%;
     outline: none;
 
-    fill: #ffffff;
+    fill: $White;
     background: rgba(255, 255, 255, 0.1);
-    transition: background-color 250ms var(--timing-function);
+    transition: background-color 250ms $timing-function;
 }
 
-.footer-join__link__link:hover,
-.footer-join__link__link:focus {
-    background-color: var(--acent-color);
+.footer-join__link:hover,
+.footer-join__link:focus {
+    background-color: $accent-color;
 }

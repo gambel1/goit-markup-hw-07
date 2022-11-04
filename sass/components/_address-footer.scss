@@ -2,28 +2,28 @@
     font-family: 'Roboto';
     font-style: normal;
     letter-spacing: 0.03em;
-}
 
-.address__list {
+&__list {
     display: flex;
     flex-direction: column;
     gap: 9px;
 }
 
-.address__text {
-    color: var(--White);
+&__text {
+    color: $White;
     line-height: 1.7;
     text-decoration: none;
+}
 }
 
 .address__link {
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.7;
     text-decoration: none;
-    transition: color 250ms var(--timing-function);
-}
+    transition: color 250ms $timing-function;
 
-.address__link:hover,
-.address__link:focus {
-    color: var(--acent-color);
+&:hover,
+&:focus {
+    color: $accent-color;
+}
 }

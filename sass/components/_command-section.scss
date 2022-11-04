@@ -13,7 +13,7 @@
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primery-text-color);
+    color: $primery-text-color;
 }
 
 /* command-wrapper */
@@ -42,7 +42,7 @@
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: var(--primery-text-color);
+    color: $primery-text-color;
 }
 
 .command-wrapper__speciality {
@@ -51,7 +51,7 @@
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
+    color: $title-text-color;
 }
 
 /* command-socials */
@@ -67,19 +67,19 @@
     width: 44px;
     height: 44px;
 
-    fill: var(--fill-icon);
+    fill: $fill-icon;
     border-radius: 50%;
     outline: none;
 
-    transition: background-color 250ms var(--timing-function),
-        box-shadow 250ms var(--timing-function),
-        fill 250ms var(--timing-function);
+    transition: background-color 250ms $timing-function,
+        box-shadow 250ms $timing-function,
+        fill 250ms $timing-function;
 }
 
 .command-socials__link:hover,
 .command-socials__link:focus {
-    fill: var(--White);
-    background-color: var(--acent-color);
+    fill: $White;
+    background-color: $accent-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 

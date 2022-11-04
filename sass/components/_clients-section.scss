@@ -11,16 +11,16 @@
     line-height: 1.16;
     letter-spacing: 0.03em;
 
-    color: var(--primery-text-color);
+    color: $primery-text-color;
 }
 
 /* clients-list */
-.clients-list {
+.clients__list {
     display: flex;
     gap: 30px;
 }
 
-.clients-list__link {
+.clients__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,22 +28,22 @@
     width: 170px;
     height: 92px;
 
-    border: 1px solid var(--fill-icon);
+    border: 1px solid $fill-icon;
     border-radius: 4px;
     outline: none;
-    fill: var(--fill-icon);
+    fill: $fill-icon;
 
-    transition: fill 250ms var(--timing-function),
-        border-color 250ms var(--timing-function);
+    transition: fill 250ms $timing-function,
+        border-color 250ms $timing-function;
 }
 
-.clients-list__link:hover,
-.clients-list__link:focus {
-    fill: var(--acent-color);
-    border-color: var(--acent-color);
+.clients__link:hover,
+.clients__link:focus {
+    fill: $accent-color;
+    border-color: $accent-color;
 }
 
-.clients-list__icon {
+.clients__icon {
     width: 106px;
     height: 60px;
 }

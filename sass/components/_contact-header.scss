@@ -11,12 +11,12 @@
    text-decoration: none;
    outline: none;
    
-   color: var(--title-text-color);
+   color: $title-text-color;
    fill: currentColor;
 
-   transition: color 250ms var(--timing-function);
+   transition: color 250ms $timing-function;
 }
 .contact__link:hover,
 .contact__link:focus {
-   color: var(--acent-color);
+   color: $accent-color;
 }

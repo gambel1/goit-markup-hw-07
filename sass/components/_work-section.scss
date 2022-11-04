@@ -6,7 +6,7 @@
     margin-bottom: 50px;
     text-align: center;
 
-    color: var(--primery-text-color);
+    color: $primery-text-color;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -37,7 +37,7 @@
 
     text-transform: uppercase;
     white-space: nowrap;
-    ;
+    
     background: rgba(47, 48, 58, 0.8);
     color: #FFFFFF;
 }

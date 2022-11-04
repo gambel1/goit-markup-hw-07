@@ -8,22 +8,26 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-}
 
-.reclam-link {
+&-link {
     display: block;
     text-decoration: none;
 
-    transition: box-shadow 250ms var(--timing-function);
-}
+    transition: box-shadow 250ms $timing-function;
+    }
 
-.reclam-link:hover {
+&-link:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
 }
 
 .reclam-backdrop {
     position: relative;
     overflow: hidden;
+
+&-backdrop:hover::after {
+    transform: translateY(0);
+    }
 }
 
 .reclam-box {
@@ -32,15 +36,11 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--acent-color);
+    background-color: $accent-color;
 
     opacity: 0.9;
     transform: translateY(100%);
-    transition: transform 250ms var(--timing-function);
-}
-
-.reclam-backdrop:hover::after {
-    transform: translateY(0);
+    transition: transform 250ms $timing-function;
 }
 
 .reclam-link:hover .reclam-box {
@@ -54,11 +54,11 @@
     line-height: 1.55;
 
     letter-spacing: 0.03em;
-    color: var(--White);
-}
-
-.reclam-text:hover {
+    color: $White;
+    
+&:hover {
     transform: translateY(0);
+    }
 }
 
 .reclam-tools {
@@ -73,12 +73,12 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--primery-text-color);
+    color: $primery-text-color;
 }
 
 .reclam-item {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
+    color: $title-text-color;
 }
