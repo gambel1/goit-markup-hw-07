@@ -28,7 +28,7 @@
 .features__title {
     margin-bottom: 10px;
 
-    color: $primery-text-color;
+    color: var(--primery-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -37,7 +37,7 @@
 }
 
 .features__item {
-    color: $title-text-color;
+    color: var(--title-text-color);
     line-height: 1.7;
     letter-spacing: 0.03em;
 }

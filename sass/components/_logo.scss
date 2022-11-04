@@ -7,12 +7,12 @@
     letter-spacing: 0.03em;
         
     text-decoration: none;
-    color: $accent-color;
+    color: var(--accent-color);
 
 .logo-black {
     color: #000000;
 }
 .logo-white {
-    color: $White;
+    color: var(--white);
 }
 }

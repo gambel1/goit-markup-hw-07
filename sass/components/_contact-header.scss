@@ -11,13 +11,13 @@
    text-decoration: none;
    outline: none;
    
-   color: $title-text-color;
+   color: var(--title-text-color);
    fill: currentColor;
 
-   transition: color 250ms $timing-function;
+   transition: color 250ms var(--timing-function);
 
 &:hover,
 &:focus {
-   color: $accent-color;
+   color: var(--accent-color);
    }
 }

@@ -11,7 +11,7 @@
 }
 
 .address__text {
-    color: $White;
+    color: var(--white);
     line-height: 1.7;
     text-decoration: none;
 }
@@ -20,10 +20,10 @@
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.7;
     text-decoration: none;
-    transition: color 250ms $timing-function;
+    transition: color 250ms var(--timing-function);
 
 &:hover,
 &:focus {
-    color: $accent-color;
+    color: var(--accent-color);
     }
 }

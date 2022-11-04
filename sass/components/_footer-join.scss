@@ -3,7 +3,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: $White;
+    color: var(--white);
 }
 
 /* footer-inner */
@@ -24,12 +24,12 @@
     border-radius: 50%;
     outline: none;
 
-    fill: $White;
+    fill: var(--white);
     background: rgba(255, 255, 255, 0.1);
-    transition: background-color 250ms $timing-function;
+    transition: background-color 250ms var(--timing-function);
 
 &:hover,
 &:focus {
-    background-color: $accent-color;
+    background-color: var(--accent-color);
     }
 }

@@ -7,12 +7,12 @@
     height: 581px;
     width: 528px;
 
-    background-color: $White;
+    background-color: var(--white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 
     transform: translate(-50%, -50%) scaleX(1);
-    transition: transform 250ms $timing-function;
+    transition: transform 250ms var(--timing-function);
 }
 
 .modal__button {
@@ -31,12 +31,12 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     outline: none;
-    background-color: $White;
-    transition: fill 250ms $timing-function;
+    background-color: var(--white);
+    transition: fill 250ms var(--timing-function);
 
 &:hover,
 &:focus {
-    fill: $accent-color;
+    fill: var(--accent-color);
     }
 }   
 

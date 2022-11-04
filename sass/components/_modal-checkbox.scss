@@ -12,7 +12,7 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
 
-    color: $title-text-color;
+    color: var(--title-text-color);
 }
 
 .form-checkbox__input {
@@ -31,19 +31,19 @@
     width: 16px;
     height: 15px;
 
-    border: 2px solid $primery-text-color;
+    border: 2px solid var(--primery-text-color);
     border-radius: 3px;
     fill: transparent;
 }
 
 .form-checkbox__input:checked+.form-checkbox__border {
     border: none;
-    fill: $White;
-    background-color: $accent-color;
+    fill: var(--white);
+    background-color: var(--accent-color);
 }
 
 .form-checkbox__link {
-    color: $accent-color;
+    color: var(--accent-color);
 }
 
 .form-checkbox__icon {

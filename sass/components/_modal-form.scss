@@ -22,17 +22,17 @@
     line-height: 1.16;
     letter-spacing: 0.01em;
 
-    color: $title-text-color;
+    color: var(--title-text-color);
 }
 
 .form__box {
     position: relative;
     height: 40px;
-    fill: $primery-text-color;
+    fill: var(--primery-text-color);
 }
 
 .form__box:focus-within .form__icon {
-    fill: $accent-color;
+    fill: var(--accent-color);
 }
 
 .form__input {
@@ -42,11 +42,11 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: none;
-    transition: border-color 250ms $timing-function;
+    transition: border-color 250ms var(--timing-function);
 }
 
 .form__input:focus {
-    border-color: $accent-color;
+    border-color: var(--accent-color);
 }
 
 .form__icon {
@@ -55,7 +55,7 @@
     left: 15px;
 
     transform: translateY(-50%);
-    transition: fill 250ms $timing-function;
+    transition: fill 250ms var(--timing-function);
 }
 
 /* form__end */
@@ -72,10 +72,10 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 
-    transition: border-color 250ms $timing-function;
+    transition: border-color 250ms var(--timing-function);
 
 &:focus {
-    border-color: $accent-color;
+    border-color: var(--accent-color);
     }
 }
 
@@ -99,8 +99,8 @@
     line-height: 1.87;
     letter-spacing: 0.06em;
 
-    color: $White;
-    background-color: $accent-color;
+    color: var(--white);
+    background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;

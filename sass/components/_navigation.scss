@@ -15,13 +15,13 @@
 
    text-decoration: none;
    outline: none;
-   color: $primery-text-color;
+   color: var(--primery-text-color);
    transition: color 250ms var(--timing-function);
 }
 .nav__link:hover,
 .nav__link--current, 
 .nav__link:focus { 
-   color: $accent-color;
+   color: var(--accent-color);
 }
 .nav__link--current::after {
    content: "";
@@ -32,7 +32,7 @@
    width: 100%;
    height: 4px;
    border-radius: 2px;
-   background-color: $accent-color;
+   background-color: var(--accent-color);
    
-   transition: opacity 250ms $timing-function;
+   transition: opacity 250ms var(--timing-function);
 }

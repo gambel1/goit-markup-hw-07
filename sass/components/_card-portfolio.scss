@@ -14,7 +14,7 @@
     display: block;
     text-decoration: none;
 
-    transition: box-shadow 250ms $timing-function;
+    transition: box-shadow 250ms var(--timing-function);
 
 &:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -32,11 +32,11 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: $accent-color;
+    background-color: var(--accent-color);
 
     opacity: 0.9;
     transform: translateY(100%);
-    transition: transform 250ms $timing-function;
+    transition: transform 250ms var(--timing-function);
 }
 
 .reclam-backdrop:hover::after {
@@ -54,7 +54,7 @@
     line-height: 1.55;
 
     letter-spacing: 0.03em;
-    color: $White;
+    color: var(--white);
 
 &:hover {
     transform: translateY(0);
@@ -73,12 +73,12 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: $primery-text-color;
+    color: var(--primery-text-color);
 }
 
 .reclam-item {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: $title-text-color;
+    color: var(--title-text-color);
 }

@@ -1,8 +1,10 @@
-    $primery-text-color: #212121;
-    $title-text-color: #757575;
-    $accent-color: #2196F3;
-    $white: #ffffff;
-    $fill-icon: #AFB1B8;
-    $secondaly: #2F303A;
+:root {
+    --primery-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --white: #ffffff;
+    --fill-icon: #AFB1B8;
+    --secondaly: #2F303A;
 
-    $timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
